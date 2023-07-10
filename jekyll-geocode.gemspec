@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift(File.expand_path("../lib", __FILE__))
 
 Gem::Specification.new do |spec|
-  spec.version = "0.1"
+  spec.version = "0.2"
   spec.homepage = "https://bertrandkeller.github.io/jekyll-geocode/"
   spec.authors = ["Bertrand Keller"]
   spec.email = ["bertrand.keller@gmail.com"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
     Geocode addresses from a YAML for drawing maps (with https://nominatim.openstreetmap.org)
   DESC
 
-  spec.add_runtime_dependency "jekyll", ">= 3.0", "< 4.0"
+  spec.add_runtime_dependency "jekyll", ">= 3.0"
 
-  spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "bundler", "~> 2.4"
 end
